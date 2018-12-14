@@ -1,0 +1,24 @@
+<!doctype HTML>
+<html>
+<head>
+
+<title> Guess the number game </title>
+
+    <link rel= "stylesheet" href=  "../GuessTheNumber/images/CSS/style.css">
+<style> </style>
+
+</head>
+
+<body>
+    <div id="stage"></div>
+    <div id= "scale"></div>
+    <div id= "arrow"></div>
+
+    <p id="output"> Thinking of a number......  </p>
+    <input id="guessbox" type="text" placeholder="Enter your guess...." autofocus> 
+    <button id="submit"> Guess! </button>
+
+</body>
+
+<script src="src/main.js"> </script>
+</html>

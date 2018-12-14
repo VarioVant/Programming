@@ -1,0 +1,35 @@
+#stage
+{
+    width: 300px;
+    height: 33px;
+    position: relative;
+    
+    
+}
+
+
+#scale
+{
+ width: 300px;
+Height: 33px;
+position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-image: url(../scale.png);
+
+}
+
+#arrow
+{
+    width: 17px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-image: url(../arrow.png);
+    
+    -moz- transition: left 0.5s ease-out 0s;
+    -webkit-transition: 0.5s ease-out 0s;
+    transition: left 0.5s ease-out 0s;
+    
+}
